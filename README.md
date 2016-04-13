@@ -14,7 +14,7 @@ Inspired by [@gtk2k](https://github.com/gtk2k)'s [an awesome sample](https://git
 
 ## Method
 
-### Glocal method
+### Global method
 
 `play ()`
 
