@@ -16,7 +16,7 @@ Inspired by [@gtk2k](https://github.com/gtk2k)'s [awesome sample](https://github
 
 ### Global method
 
-`play ()`
+#### `play ()`
 
 Play gif animation
 
@@ -24,7 +24,7 @@ Play gif animation
 entity.play()
 ```
 
-`pause ()`
+#### `pause ()`
 
 Pause gif animation
 
@@ -34,7 +34,7 @@ entity.pause()
 
 ### Custom method
 
-`togglePlayback ()`
+#### `togglePlayback ()`
 
 Toggle playback. if the gif is paused, play and pause if it's playing.
 
@@ -42,7 +42,7 @@ Toggle playback. if the gif is paused, play and pause if it's playing.
 entity.components.gif.togglePlayback()
 ```
 
-`nextFrame ()`
+#### `nextFrame ()`
 
 Go to next frame. Useful if it's paused.
 
@@ -51,9 +51,9 @@ entity.components.gif.nextFrame()
 ```
 
 
-`paused ()`
+#### `paused ()`
 
-Get if it is paused.
+Returns if it is paused.
 
 ```js
 const paused = entity.components.gif.paused() // true or false
