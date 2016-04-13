@@ -1,7 +1,7 @@
 # AFrame GIF Component
 
 Display GIF as a material for [A-Frame](https://aframe.io) VR. Requires [`draw`](https://github.com/maxkrieger/aframe-draw-component).
-Inspired by [@gtk2k](https://github.com/gtk2k)'s [an awesome sample](https://github.com/gtk2k/gtk2k.github.io/tree/master/animation_gif)
+Inspired by [@gtk2k](https://github.com/gtk2k)'s [awesome sample](https://github.com/gtk2k/gtk2k.github.io/tree/master/animation_gif)
 
 ![example](example.gif)
 
