@@ -1,6 +1,6 @@
 {
   "name": "aframe-gif-component",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A-Frame GIF Component to display GIF animation as a material for A-Frame VR.",
   "main": "index.js",
   "scripts": {
