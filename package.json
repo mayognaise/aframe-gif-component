@@ -1,8 +1,8 @@
 {
   "name": "aframe-gif-component",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A-Frame GIF Component to display GIF animation as a material for A-Frame VR.",
-  "main": "index.js",
+  "main": "dist/aframe-gif-component.js",
   "scripts": {
     "build": "webpack -p examples/main.js examples/build.js",
     "dev": "budo examples/main.js:build.js --dir examples --port 8000 --live -- -t babelify",
