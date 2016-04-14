@@ -1,4 +1,4 @@
-import { loadGIF } from './libs/gifsparser'
+import { loadGIF } from './lib/gifsparser'
 
 if (typeof AFRAME === 'undefined') {
   throw 'Component attempted to register before AFRAME was available.'
@@ -11,7 +11,7 @@ if (typeof AFRAME === 'undefined') {
  */
 AFRAME.registerComponent('gif', {
   
-  dependencies: [ 'draw' ],
+  dependencies: [ 'material' ],
 
   schema: {
     src: { default: null },
@@ -23,6 +23,9 @@ AFRAME.registerComponent('gif', {
    * @protected
    */
   init(){
+
+    console.log(this.el.getAttribute('material'))
+    return
 
     /* get access to the draw component */
     const { draw } = this.el.components
@@ -44,6 +47,7 @@ AFRAME.registerComponent('gif', {
    * @protected
    */
   update (oldData) {
+    return
     if (!oldData) {
       this.__load()
     }
