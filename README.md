@@ -1,6 +1,6 @@
 # AFrame GIF Component
 
-Display GIF as a material for [A-Frame](https://aframe.io) VR. Requires [`draw`](https://github.com/maxkrieger/aframe-draw-component).
+Display GIF as a material for [A-Frame](https://aframe.io) VR. Requires [`draw`](https://github.com/maxkrieger/aframe-draw-component) by [@maxkrieger](https://github.com/maxkrieger).
 Inspired by [@gtk2k](https://github.com/gtk2k)'s [awesome sample](https://github.com/gtk2k/gtk2k.github.io/tree/master/animation_gif)
 
 ![example](example.gif)
@@ -16,7 +16,7 @@ Inspired by [@gtk2k](https://github.com/gtk2k)'s [awesome sample](https://github
 
 ### Global method
 
-#### `play ()`
+#### `play()`
 
 Play gif animation
 
@@ -24,7 +24,7 @@ Play gif animation
 entity.play()
 ```
 
-#### `pause ()`
+#### `pause()`
 
 Pause gif animation
 
@@ -34,7 +34,7 @@ entity.pause()
 
 ### Custom method
 
-#### `togglePlayback ()`
+#### `togglePlayback()`
 
 Toggle playback. if the gif is paused, play and pause if it's playing.
 
@@ -42,7 +42,7 @@ Toggle playback. if the gif is paused, play and pause if it's playing.
 entity.components.gif.togglePlayback()
 ```
 
-#### `nextFrame ()`
+#### `nextFrame()`
 
 Go to next frame. Useful if it's paused.
 
@@ -51,7 +51,7 @@ entity.components.gif.nextFrame()
 ```
 
 
-#### `paused ()`
+#### `paused()`
 
 Returns if it is paused.
 
