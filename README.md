@@ -1,6 +1,6 @@
 # AFrame GIF Component
 
-# This is migrated to `material` component. Please use [`aframe-git-shader`](https://github.com/mayognaise/aframe-gif-shader)
+## This is migrated to `material` component. Please use [`aframe-git-shader`](https://github.com/mayognaise/aframe-gif-shader)
 
 Display GIF as a material for [A-Frame](https://aframe.io) VR. Requires [`draw`](https://github.com/maxkrieger/aframe-draw-component) by [@maxkrieger](https://github.com/maxkrieger).
 Inspired by [@gtk2k](https://github.com/gtk2k)'s [awesome sample](https://github.com/gtk2k/gtk2k.github.io/tree/master/animation_gif)
