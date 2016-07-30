@@ -1,20 +1,13 @@
 # AFrame GIF Component
 
-## Please use [`aframe-gif-shader`](https://github.com/mayognaise/aframe-gif-shader) for this component.
+**Please use [`aframe-gif-shader`](https://github.com/mayognaise/aframe-gif-shader) for this component.**
 
-Display GIF as a material for [A-Frame](https://aframe.io) VR. Requires [`aframe-gif-shader`](https://github.com/mayognaise/aframe-gif-shader).
+A gif controller for [A-Frame](https://aframe.io) VR. Requires [`aframe-gif-shader`](https://github.com/mayognaise/aframe-gif-shader).
 Inspired by [@gtk2k](https://github.com/gtk2k)'s [awesome sample](https://github.com/gtk2k/gtk2k.github.io/tree/master/animation_gif).
 
 **[DEMO](https://mayognaise.github.io/aframe-gif-component/basic/index.html)**
 
 ![example](example.gif)
-
-## Properties
-
-| Property | Description | Default Value |
-| -------- | ----------- | ------------- |
-|src|image url|null|
-|autoplay|play automatecally once it's ready|true|
 
 ## Method
 
