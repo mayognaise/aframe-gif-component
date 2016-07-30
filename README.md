@@ -1,9 +1,9 @@
 # AFrame GIF Component
 
-## This is migrated to `material` component. Please use [`aframe-git-shader`](https://github.com/mayognaise/aframe-gif-shader)
+## Please use [`aframe-gif-shader`](https://github.com/mayognaise/aframe-gif-shader) for this component.
 
-Display GIF as a material for [A-Frame](https://aframe.io) VR. Requires [`draw`](https://github.com/maxkrieger/aframe-draw-component) by [@maxkrieger](https://github.com/maxkrieger).
-Inspired by [@gtk2k](https://github.com/gtk2k)'s [awesome sample](https://github.com/gtk2k/gtk2k.github.io/tree/master/animation_gif)
+Display GIF as a material for [A-Frame](https://aframe.io) VR. Requires [`aframe-gif-shader`](https://github.com/mayognaise/aframe-gif-shader).
+Inspired by [@gtk2k](https://github.com/gtk2k)'s [awesome sample](https://github.com/gtk2k/gtk2k.github.io/tree/master/animation_gif).
 
 **[DEMO](https://mayognaise.github.io/aframe-gif-component/basic/index.html)**
 
@@ -74,13 +74,13 @@ Install and use by directly including the [browser files](dist):
 <head>
   <title>My A-Frame Scene</title>
   <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
-  <script src="https://rawgit.com/maxkrieger/aframe-draw-component/master/dist/aframe-draw-component.min.js"></script>
+  <script src="https://rawgit.com/mayognaise/aframe-gif-shader/master/dist/aframe-gif-shader.min.js"></script>
   <script src="https://rawgit.com/mayognaise/aframe-gif-component/master/dist/aframe-gif-component.min.js"></script>
 </head>
 
 <body>
   <a-scene>
-    <a-entity geometry="primitive: box" draw="" gif="src:nyancat.gif;"></a-entity>
+    <a-entity geometry="primitive:box" material="shader:gif;src:url(nyancat.gif);" gif="src:nyancat.gif;"></a-entity>
   </a-scene>
 </body>
 ```
@@ -90,15 +90,14 @@ Install and use by directly including the [browser files](dist):
 Install via NPM:
 
 ```bash
-npm i -D aframe-draw-component aframe-gif-component
+npm i -D aframe-gif-shader aframe-gif-component
 ```
 
 Then register and use.
 
 ```js
 import 'aframe'
-import draw from 'aframe-draw-component'
-AFRAME.registerComponent('draw', draw.component)
+import 'aframe-gif-shader'
 import 'aframe-gif-component'
 ```
 
