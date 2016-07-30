@@ -1,7 +1,8 @@
 # AFrame GIF Component
 
-**A gif controller for [A-Frame](https://aframe.io) VR. Requires [`aframe-gif-shader`](https://github.com/mayognaise/aframe-gif-shader).
-Inspired by [@gtk2k](https://github.com/gtk2k)'s [awesome sample](https://github.com/gtk2k/gtk2k.github.io/tree/master/animation_gif).**
+**A conponent to control GIF for [A-Frame](https://aframe.io) VR.**
+
+**Requires [`aframe-gif-shader`](https://github.com/mayognaise/aframe-gif-shader).**
 
 **[DEMO](https://mayognaise.github.io/aframe-gif-component/basic/index.html)**
 
