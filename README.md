@@ -71,7 +71,7 @@ Install and use by directly including the [browser files](dist):
 
 <body>
   <a-scene>
-    <a-entity geometry="primitive:box" material="shader:gif;src:url(nyancat.gif);" gif="src:nyancat.gif;"></a-entity>
+    <a-entity geometry="primitive:box" material="shader:gif;src:url(nyancat.gif);" gif=""></a-entity>
   </a-scene>
 </body>
 ```
